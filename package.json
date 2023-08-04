@@ -1,6 +1,6 @@
 {
     "name": "expect-to-be",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
@@ -15,10 +15,10 @@
         "url": "git+https://github.com/fb-sean/expect-to-be.git"
     },
     "bugs": {
-        "url": "https://github.com/meister03/expect-to-be/issues"
+        "url": "https://github.com/fb-sean/expect-to-be/issues"
     },
     "homepage": "https://github.com/fb-sean/expect-to-be",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "keywords": [
         "utility",
         "expect",
