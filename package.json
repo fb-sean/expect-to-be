@@ -1,0 +1,31 @@
+{
+    "name": "expect-to-be",
+    "version": "1.0.1",
+    "main": "dist/index.js",
+    "typings": "typings/index.d.ts",
+    "scripts": {
+        "build": "tsc --declaration --outDir dist --lib dom,es6"
+    },
+    "author": "fb-sean <sean@sattler.dev>",
+    "contributors": [
+        "fb-sean <sean@sattler.dev>"
+    ],
+    "license": "Apache-2.0",
+    "keywords": [
+        "utility",
+        "expect",
+        "typing",
+        "types",
+        "type-check",
+        "check"
+    ],
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@types/node": "^20.2.5"
+    },
+    "devDependencies": {
+        "typescript": "^5.1.3"
+    }
+}
