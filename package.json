@@ -1,8 +1,8 @@
 {
     "name": "expect-to-be",
-    "version": "1.0.1",
-    "main": "dist/index.js",
-    "typings": "typings/index.d.ts",
+    "version": "1.0.2",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "scripts": {
         "build": "tsc --declaration --outDir dist --lib dom,es6"
     },
@@ -10,6 +10,14 @@
     "contributors": [
         "fb-sean <sean@sattler.dev>"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fb-sean/expect-to-be.git"
+    },
+    "bugs": {
+        "url": "https://github.com/meister03/expect-to-be/issues"
+    },
+    "homepage": "https://github.com/fb-sean/expect-to-be",
     "license": "Apache-2.0",
     "keywords": [
         "utility",
@@ -18,9 +26,6 @@
         "types",
         "type-check",
         "check"
-    ],
-    "files": [
-        "dist"
     ],
     "dependencies": {
         "@types/node": "^20.2.5"
